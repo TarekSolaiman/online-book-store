@@ -1,11 +1,11 @@
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import WhyBookShip from "./components/WhyBookShip/WhyBookShip";
+import { routers } from "./Routers/routers";
 
 function App() {
   return (
     <div className="App">
       <h1 className="text-3xl font-bold">Online-book-store</h1>
-      <WhyBookShip></WhyBookShip>
     </div>
   );
 }
