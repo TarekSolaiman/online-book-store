@@ -4,7 +4,7 @@ import WhyBookShip from "../HomeCompo/WhyBookShip/WhyBookShip";
 const Home = () => {
   return (
     <div>
-      Home Page
+      <h2 className="text-2xl font-bold">Home Page</h2>
       <WhyBookShip />
     </div>
   );
